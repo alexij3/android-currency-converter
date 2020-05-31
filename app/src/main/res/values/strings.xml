@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="main_activity_header">Convert from one currency to another</string>
+</resources>
