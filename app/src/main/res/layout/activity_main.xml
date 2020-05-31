@@ -37,8 +37,8 @@
     <EditText
         android:id="@+id/currencyFromValue"
         android:layout_width="120dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="20dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:text="1"
@@ -49,11 +49,12 @@
     <EditText
         android:id="@+id/currencyToValue"
         android:layout_width="120dp"
-        android:layout_height="41dp"
+        android:layout_height="48dp"
         android:editable="false"
         android:ems="10"
         android:inputType="none"
         android:text="1"
+        android:textAlignment="viewStart"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/currencyFromValue"
         app:layout_constraintTop_toBottomOf="@+id/currencyFromValue" />
