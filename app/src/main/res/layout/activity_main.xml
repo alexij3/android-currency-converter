@@ -52,7 +52,7 @@
         android:layout_height="41dp"
         android:editable="false"
         android:ems="10"
-        android:inputType="numberDecimal"
+        android:inputType="none"
         android:text="1"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/currencyFromValue"
