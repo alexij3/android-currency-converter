@@ -36,11 +36,11 @@
 
     <EditText
         android:id="@+id/currencyFromValue"
-        android:layout_width="105dp"
+        android:layout_width="120dp"
         android:layout_height="41dp"
         android:layout_marginTop="20dp"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:text="1"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
@@ -48,13 +48,24 @@
 
     <EditText
         android:id="@+id/currencyToValue"
-        android:layout_width="106dp"
+        android:layout_width="120dp"
         android:layout_height="41dp"
+        android:editable="false"
         android:ems="10"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         android:text="1"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/currencyFromValue"
         app:layout_constraintTop_toBottomOf="@+id/currencyFromValue" />
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Convert"
+        app:layout_constraintEnd_toEndOf="@+id/currencyToValue"
+        app:layout_constraintStart_toStartOf="@+id/currencyTo"
+        app:layout_constraintTop_toBottomOf="@+id/currencyTo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
